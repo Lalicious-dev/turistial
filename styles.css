@@ -25,6 +25,9 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 
 nav ul{
@@ -79,8 +82,11 @@ section{
 }
 
 #destinos article{
+    position:relative;
     width:300px;
 }
+
+
 
 #testimonios{
     padding:50px;
@@ -115,6 +121,8 @@ input, textarea, select{
     width: 100%;
     padding: 8px;
 }
+
+
 button{
     margin-top:15px;
     padding:10px;
@@ -122,8 +130,8 @@ button{
     background:#4801a4;
     color:white;
     border-radius:5px;
+    cursor:pointer;
 }
-
 
 
 footer{
@@ -154,4 +162,15 @@ footer section{
 }
 footer li{
     margin:5px 0;
+}
+
+.boton-arriba{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#4801a4;
+    color:white;
+    padding:12px;
+    border-radius:50%;
+    text-decoration:none;
 }
