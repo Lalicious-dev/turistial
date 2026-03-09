@@ -1,28 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-    background-color: rgb(165, 188, 207);
+    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header nav h1{
-    background: linear-gradient(to right, #9ba3d6, #4801a4);
+    background: linear-gradient(to right, #cb9bd6, #5e3593);
+    color: white;
+    text-align: center;
 
 }
-
+section{
+    padding:40px;
+}
 
 .imagen{
-    height: 400px;
-    width: 600px;
+    height:400px;
+    width:600px;
+    border-radius:8px;
+    margin-top:20px;
 }
 
 
 #testimonios{
-    background-color: #4801a4;
+    padding:50px;
+    text-align:center;
+}
+
+blockquote{
+    background:rgb(28, 71, 170);
+    color:white;
+    padding:20px;
+    margin:20px auto;
+    max-width:600px;
+    border-radius:8px;
 }
 
 
 #contacto form{
-    width: 400px;
-    margin: auto;
+    width:400px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:8px;
 }
 
 label{
@@ -34,4 +59,34 @@ input, textarea, select{
     display: block;
     width: 100%;
     padding: 8px;
+}
+button{
+    margin-top:15px;
+    padding:10px;
+    border:none;
+    background:#4801a4;
+    color:white;
+    border-radius:5px;
+}
+
+
+
+footer{
+    background:#222;
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+footer ul{
+    list-style:none;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer section{
+    margin-bottom:20px;
 }
