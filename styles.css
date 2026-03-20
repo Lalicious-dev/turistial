@@ -128,7 +128,7 @@ header .btn:hover{
   content: "";
   position: absolute;
   inset: 0;
-  background: url(../img/f.png) no-repeat center / cover;
+  background: url(./img/f.png) no-repeat center / cover;
 
   z-index: -1;
 }
