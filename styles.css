@@ -557,6 +557,10 @@ header .btn:hover{
   .icons-container .icons span {
     font-size: 1.7rem;
   }
+  header .navbar a {
+  color: #000000;
+}
+
 }
 
 @media (max-width: 450px) {
@@ -566,6 +570,10 @@ header .btn:hover{
   .heading {
     font-size: 3rem;
   }
+  header .navbar a {
+  color: #000000;
+}
+  
 }
 
 @media (max-width: 320px) {
@@ -576,5 +584,7 @@ header .btn:hover{
   .heading {
     font-size: 2rem;
   }
-  
+  header .navbar a {
+  color: #000000;
+}
 }
