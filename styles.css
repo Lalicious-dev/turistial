@@ -124,14 +124,7 @@ header .btn:hover{
   overflow: hidden;
 }
 
-.home::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: url(./img/f.png) no-repeat center / cover;
 
-  z-index: -1;
-}
 
 .home .content {
   max-width: 50rem;
