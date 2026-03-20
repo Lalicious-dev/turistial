@@ -286,7 +286,6 @@ header .btn:hover{
   inset: 0;
   background: url('../img/f.png') no-repeat center / cover;
   z-index: -1;
-  background-attachment: fixed; 
 }
 
 .destinos .box-container .box:hover .image img {
@@ -567,4 +566,15 @@ header .btn:hover{
   .heading {
     font-size: 3rem;
   }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 45%;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+  
 }
