@@ -28,7 +28,6 @@ section {
   color: #333;
   padding: 1rem;
   margin: 2rem 0;
-  
 }
 
 .heading span {
@@ -84,7 +83,6 @@ header .navbar a:hover {
   color: var(--blue);
 }
 
-
 header .icons a:hover {
   color: var(--blue);
 }
@@ -103,18 +101,17 @@ header .fa-bars {
   display: none;
 }
 
-header .btn{
-    background: #fff;
-    color: #1c0760;
-    display: inline-block;
-  margin-top: .1rem;
+header .btn {
+  background: #fff;
+  color: #1c0760;
+  display: inline-block;
+  margin-top: 0.1rem;
 }
 
-header .btn:hover{
-    background: #000000;
-    color: #ffffff;
+header .btn:hover {
+  background: #000000;
+  color: #ffffff;
 }
-
 
 .home {
   position: relative;
@@ -123,8 +120,6 @@ header .btn:hover{
   min-height: 100vh;
   overflow: hidden;
 }
-
-
 
 .home .content {
   max-width: 50rem;
@@ -177,7 +172,7 @@ header .btn:hover{
   transform: translateY(-50%);
   font-size: 3rem;
   background: #fff;
-  
+
   width: 100%;
   padding: 1rem 2rem;
   text-align: center;
@@ -266,7 +261,7 @@ header .btn:hover{
   text-align: center;
   padding-top: 2rem;
   overflow: hidden;
-  height: 28rem; 
+  height: 28rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,8 +270,8 @@ header .btn:hover{
 .destinos .box-container .box .image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
-  object-position: center; 
+  object-fit: cover;
+  object-position: center;
   transition: transform 0.3s ease;
 }
 
@@ -284,7 +279,7 @@ header .btn:hover{
   content: "";
   position: absolute;
   inset: 0;
-  background: url('../img/f.png') no-repeat center / cover;
+  background: url("../img/f.png") no-repeat center / cover;
   z-index: -1;
 }
 
@@ -428,8 +423,8 @@ header .btn:hover{
 .contact .row .image img {
   width: 100%;
   height: auto;
-  max-height: 50rem; 
-  object-fit: contain; 
+  max-height: 50rem;
+  object-fit: contain;
   object-position: center;
 }
 .contact .row form .box {
@@ -451,8 +446,8 @@ header .btn:hover{
   height: 15rem;
   resize: none;
 }
-.footer{
-    background: linear-gradient(135deg, #1c0760, #3a2e5f, #4b3f8f);
+.footer {
+  background: linear-gradient(135deg, #1c0760, #3a2e5f, #4b3f8f);
 }
 .footer .box-container {
   display: flex;
@@ -505,7 +500,7 @@ header .btn:hover{
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  background:linear-gradient(#000000, #1c0760);
+  background: linear-gradient(#000000, #1c0760);
   color: #fff;
   width: 5rem;
   height: 5rem;
@@ -525,7 +520,6 @@ header .btn:hover{
   transform: translateY(-0.5rem);
 }
 
-
 .home {
   position: relative;
   display: flex;
@@ -540,7 +534,7 @@ header .btn:hover{
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   object-position: center;
   z-index: -1;
 }
@@ -575,8 +569,6 @@ header .btn:hover{
     background-position: left;
   }
 }
-
-
 
 @media (max-width: 768px) {
   header .fa-bars {
@@ -620,9 +612,8 @@ header .btn:hover{
     font-size: 1.7rem;
   }
   header .navbar a {
-  color: #000000;
-}
-
+    color: #000000;
+  }
 }
 
 @media (max-width: 450px) {
@@ -633,9 +624,8 @@ header .btn:hover{
     font-size: 3rem;
   }
   header .navbar a {
-  color: #000000;
-}
-  
+    color: #000000;
+  }
 }
 
 @media (max-width: 320px) {
@@ -647,6 +637,6 @@ header .btn:hover{
     font-size: 2rem;
   }
   header .navbar a {
-  color: #000000;
-}
+    color: #000000;
+  }
 }
