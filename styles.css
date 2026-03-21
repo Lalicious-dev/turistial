@@ -637,3 +637,16 @@ header .btn:hover{
 }
   
 }
+
+@media (max-width: 320px) {
+  html {
+    font-size: 45%;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+  header .navbar a {
+  color: #000000;
+}
+}
